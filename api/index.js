@@ -43,3 +43,5 @@ app.post("/", (req, res) => {
   });
 
 app.listen(PORT, () => console.log(`Server started  ${PORT}`));
+
+export default app;
