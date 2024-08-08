@@ -34,7 +34,7 @@ const PORT = process.env.PORT || 3000;
 //}
 
 app.get("/", (req,res) => {
-  console.log("get");
+  res.send("Express on Vercel");
 });
 
 app.post("/", (req, res) => {
