@@ -33,6 +33,10 @@ const PORT = process.env.PORT || 3000;
 //  };
 //}
 
+app.get("/", (req,res) => {
+  console.log("get");
+});
+
 app.post("/", (req, res) => {
     console.log("here");
     res.send("success");
