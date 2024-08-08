@@ -15,6 +15,6 @@
   "version": "1.0.0",
   "description": "duffettpaintingbackend",
   "author": "Bill Duffett",
-  "main": "index.js",
+  "main": "/api/app.js",
   "license": "ISC"
 }
