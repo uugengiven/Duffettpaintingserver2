@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 env.config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 //const db = new pg.Client({
 //    user: process.env.PG_USER,
